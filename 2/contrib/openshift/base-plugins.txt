@@ -1,10 +1,10 @@
-openshift-pipeline:1.0.49
+openshift-pipeline:1.0.50
 openshift-login:0.12
 openshift-client:0.9.6
 
 
 # kubernetes plugin - https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin
-kubernetes:0.10
+kubernetes:0.12
 
 # fabric8 openshift sync
 openshift-sync:0.1.27
@@ -19,8 +19,8 @@ workflow-aggregator:2.5
 workflow-remote-loader:1.2
 
 # mercurial - https://wiki.jenkins-ci.org/display/JENKINS/Mercurial+Plugin
-mercurial:1.54
-matrix-project:1.7.1
+mercurial:2.0
+matrix-project:1.11
 multiple-scms:0.6
 ssh-credentials:1.13
 
@@ -28,11 +28,11 @@ ssh-credentials:1.13
 pipeline-utility-steps:1.1.5
 
 # Jenkins v2 specific
-matrix-auth:1.5
-blueocean:1.1.6
+matrix-auth:1.7
+blueocean:1.1.7
 
 # Legacy stuff
-mapdb-api:1.0.1.0
+mapdb-api:1.0.9.0
 subversion:2.9
 
 # explicitly pull in plugins previously pulled in by dependencies because of
@@ -44,16 +44,12 @@ subversion:2.9
 # processed sec adv https://jenkins.io/blog/2017/07/10/security-advisory/
 # processed sec adv https://jenkins.io/security/advisory/2017-08-07/
 #
-config-file-provider:2.16.2
+config-file-provider:2.16.3
 docker-commons:1.8
-git:3.3.2
-git-client:2.4.4
-github-branch-source:2.0.8
-job-dsl:1.60
-parameterized-trigger:2.35.1
-pipeline-build-step:2.5.1
+git:3.5.1
+git-client:2.5.0
 pipeline-input-step:2.8
 workflow-cps:2.39
-script-security:1.31
+script-security:1.33
 
 
